@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<div id="error-message"></div>
+<head>
+  <title>Калькулятор ИМТ</title>
+  <!-- Указываем путь к файлу css-->
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="css/stule.css">
+  </head>
+  <script>
+  </script>
+</head>
+<body>
+  <h1>Калькулятор ИМТ</h1>
+  <!-- Форма для ввода данных пользователя -->
+  <form>
+    <label for="weight">Введите ваш вес в кг:</label>
+    <input type="number" id="weight">
+    <br>
+    <label for="height">Введите ваш рост в см:</label>
+    <input type="number" id="height">
+    <br>
+    <button type="button" onclick="calculate()">Посчитать ИМТ</button>
+   <!-- Кнопка очистки полей-->
+<button type="button" onclick="clearFields()">Очистить поля</button>
+  </form>
+     <!-- Показ результата расчета ИМТ -->
+  <p>Ваш ИМТ: <span id="result"></span></p>
+
+  <script
+   type="text/javascript" src="js/js.js">
+   // Указываем путь к файлу html  
+   </script>
+</body>
+</html>
